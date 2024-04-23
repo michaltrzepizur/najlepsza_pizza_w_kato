@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "645559290352",
+    "project_id": "pizza-kato-9109",
+    "storage_bucket": "pizza-kato-9109.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:645559290352:android:9f90e39063c5305c56f535",
+        "android_client_info": {
+          "package_name": "com.michaltrzepizur.najlepsza_pizza_w_kato"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2y7_uHLaTQ_nCK6BJu2W8Ow6J1xmI2to"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
