@@ -50,7 +50,7 @@ class _LoginPageState extends State<LoginPage> {
               ),
               ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Color.fromARGB(255, 33, 243, 103),
+                  backgroundColor: Color.fromARGB(255, 164, 244, 191),
                 ),
                 onPressed: () async {
                   if (isCreatingAccount == true) {
