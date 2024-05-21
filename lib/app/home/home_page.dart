@@ -29,7 +29,7 @@ class _HomePageState extends State<HomePage> {
       ),
       body: Builder(builder: (context) {
         if (currentIndex == 0) {
-          return RestaurantsPageContent();
+          return const RestaurantsPageContent();
         }
         if (currentIndex == 1) {
           return AddOpinionPageContent(onSave: () {
