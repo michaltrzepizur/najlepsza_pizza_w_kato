@@ -34,12 +34,12 @@ class _LoginPageState extends State<LoginPage> {
               ),
               TextField(
                 controller: widget.emailController,
-                decoration: InputDecoration(hintText: 'E-mail'),
+                decoration: const InputDecoration(hintText: 'E-mail'),
               ),
               TextField(
                 controller: widget.passwordController,
                 obscureText: true,
-                decoration: InputDecoration(hintText: 'Hasło'),
+                decoration: const InputDecoration(hintText: 'Hasło'),
               ),
               const SizedBox(
                 height: 20,
@@ -50,7 +50,7 @@ class _LoginPageState extends State<LoginPage> {
               ),
               ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Color.fromARGB(255, 164, 244, 191),
+                  backgroundColor: const Color.fromARGB(255, 164, 244, 191),
                 ),
                 onPressed: () async {
                   if (isCreatingAccount == true) {
@@ -94,7 +94,7 @@ class _LoginPageState extends State<LoginPage> {
                       isCreatingAccount = true;
                     });
                   },
-                  child: Text('Utwórz konto'),
+                  child: const Text('Utwórz konto'),
                 ),
               ],
               if (isCreatingAccount == true) ...[
@@ -104,7 +104,7 @@ class _LoginPageState extends State<LoginPage> {
                       isCreatingAccount = false;
                     });
                   },
-                  child: Text('Masz już konto?'),
+                  child: const Text('Masz już konto?'),
                 ),
               ],
             ],
