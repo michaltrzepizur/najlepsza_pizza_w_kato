@@ -1,8 +1,8 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:najlepsza_pizza_w_kato/app/home/add_opinion/add_opinion_page_content.dart';
-import 'package:najlepsza_pizza_w_kato/app/home/my_account/my_account_page_content.dart';
-import 'package:najlepsza_pizza_w_kato/app/home/restaurants/restaurants_page_content.dart';
+import 'package:najlepsza_pizza_w_kato/app/features/home/add_opinion/add_opinion_page_content.dart';
+import 'package:najlepsza_pizza_w_kato/app/features/home/my_account/my_account_page_content.dart';
+import 'package:najlepsza_pizza_w_kato/app/features/home/restaurants/restaurants_page_content.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({
@@ -29,7 +29,7 @@ class _HomePageState extends State<HomePage> {
       ),
       body: Builder(builder: (context) {
         if (currentIndex == 0) {
-          return RestaurantsPageContent();
+          return const RestaurantsPageContent();
         }
         if (currentIndex == 1) {
           return AddOpinionPageContent(onSave: () {
